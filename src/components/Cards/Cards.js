@@ -3,6 +3,13 @@ import Categoria from "components/Categoria/Categoria"
 import Card from "components/Card/Card"
 
 function Cards() {
+
+    const categorias = [
+        "Front End",
+        "Back End",
+        "Inovación y Gestión"
+    ]
+
     return (
         <div className={styles.container}>
             <Categoria nombre="Front End"></Categoria>

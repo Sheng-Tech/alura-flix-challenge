@@ -14,7 +14,7 @@ function Banner({ img, color }) {
                     <span>Este challenge es una forma de aprendizaje. Es un mecanismo donde podrás comprometerte en la resolución de un problema para poder aplicar todos los conocimientos adquiridos en la formación React.</span>
                 </BannerCard>
                 <Player>
-                    <iframe className={styles.player} width="560" height="315" src="https://www.youtube.com/embed/MnBNPA45NW8?si=sjKkXmr8eShvoTmZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe className={styles.player} width="560" height="315" src="https://www.youtube.com/embed/MnBNPA45NW8?si=sjKkXmr8eShvoTmZ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                 </Player>
             </div>
 

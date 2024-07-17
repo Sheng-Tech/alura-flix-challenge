@@ -1,17 +1,12 @@
-.campoTexto {
-    margin: 24px 0;
-    font-family: var(--font2);
-}
-
-.campoTexto label {
-    font-family: var(--font2);
+.listaOpciones label {
+    display: block;
     font-size: 18px;
     font-weight: 600;
-    display: block;
+    font-family: var(--font2);
     margin-bottom: 8px;
 }
 
-.campoTexto input {
+.listaOpciones select {
     width: 100%;
     background-color: var(--blanco);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
@@ -20,7 +15,4 @@
     outline-color: var(--azul);
     font-size: 16px;
     border-radius: 10px;
-    margin: 15px 0;
-    box-sizing: border-box;
 }
-
