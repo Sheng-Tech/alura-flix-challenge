@@ -1,0 +1,41 @@
+.campoTexto {
+    margin: 24px 0;
+    font-family: var(--font2);
+}
+
+.campoTexto label {
+    font-family: var(--font2);
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+
+.campoTexto input {
+    width: 50%;
+    background-color: var(--blanco);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding: 15px 20px;
+    outline-color: var(--azul);
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+.inputsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputTitulo, .inputCategoria, .inputImagen, .inputVideo, .inputDescripcion {
+    max-width: 40%;
+    margin: 15px 0;
+    height: 30px;
+}

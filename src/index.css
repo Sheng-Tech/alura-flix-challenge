@@ -1,0 +1,17 @@
+:root {
+  --font1: "Roboto", sans-serif;
+  --font2: "Source Sans 3", sans-serif;
+  --blanco: #fff;
+  --negro1: #222;
+  --negro2: #000;
+  --gris: #e2e2e2;
+  --azul: #2271D1;
+  --color-button-shadow: #0b223f;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

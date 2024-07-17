@@ -1,0 +1,13 @@
+.categoria {
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--azul);
+    font-weight: 900;
+    font-weight: bold;
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-family: var(--font1);
+}

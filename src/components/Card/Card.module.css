@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: var(--blanco);
+    margin:15px;
+    border: var(--color-button-shadow) solid 2px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px 5px var(--azul);
+     
+}
+
+.cardFooter {
+    display: flex;
+    margin: 15px;
+    gap:10px;
+    justify-content: space-around;
+}
+
+.cardFooterItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

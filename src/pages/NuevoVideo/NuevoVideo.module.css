@@ -1,0 +1,25 @@
+.container {
+    font-family: var(--font1);
+    background-color: var(--negro1);
+    color: var(--blanco);
+    padding: 50px;
+}
+
+.titulo {
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: var(--blanco);
+    margin: 0;
+    padding: 10px;
+}
+
+.texto {
+    color: var(--blanco);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+

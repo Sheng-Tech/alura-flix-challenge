@@ -1,0 +1,12 @@
+.formularioContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    max-width: 80%;
+}
+
+.subTitulo {
+    padding: 15px 0 ;
+    border-top: 2px solid var(--blanco);
+    border-bottom: 2px solid var(--blanco);
+}
